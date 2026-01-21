@@ -1,5 +1,5 @@
 import dotenv from 'dotenv-flow';
-dotenv.config();
+dotenv.config({ silent: true });
 
 async function bootstrap() {}
 bootstrap();
