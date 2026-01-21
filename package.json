@@ -10,10 +10,27 @@
     "type": "git",
     "url": "git+https://github.com/yundohyun/typescript-template.git"
   },
-  "author": "",
+  "author": "yundohyun",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yundohyun/typescript-template/issues"
+  "dependencies": {
+    "dotenv": "^17.2.3"
   },
-  "homepage": "https://github.com/yundohyun/typescript-template#readme"
+  "devDependencies": {
+    "@swc-node/register": "^1.11.1",
+    "@swc/core": "^1.15.10",
+    "@swc/jest": "^0.2.39",
+    "@types/jest": "^30.0.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.0",
+    "rimraf": "^6.1.2",
+    "ts-jest": "^29.4.6",
+    "tsc-alias": "^1.8.16",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.1"
+  }
 }
