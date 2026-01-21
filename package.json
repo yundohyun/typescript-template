@@ -4,7 +4,15 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/index.js",
+    "build": "rimraf dist && tsc && tsc-alias",
+    "dev": "node --enable-source-maps -r @swc-node/register -r tsconfig-paths/register ./src/index.ts",
+    "nodemon": "nodemon",
+    "test": "jest --passWithNoTests",
+    "fix": "npm run fix:lint && npm run fix:format",
+    "fix:format": "npm run fix:prettier",
+    "fix:prettier": "prettier --write \"src/**/*.ts\"",
+    "fix:lint": "eslint \"src/**/*.ts\" --fix"
   },
   "repository": {
     "type": "git",
