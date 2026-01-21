@@ -19,7 +19,16 @@
 
 ## 🏃 시작하기 (Getting Started)
 
-### 1. 의존성 설치
+### 1. 환경 변수 설정
+
+본 프로젝트는 환경 변수 관리를 위해 `.env` 파일을 사용합니다.<br>
+`.env.example` 파일을 복사하여 `.env` 파일을 생성한 후 필요한 값을 입력하세요.
+
+```bash
+cp .env.example .env
+```
+
+### 2. 의존성 설치
 
 ```bash
 # pnpm 사용 권장
@@ -29,7 +38,7 @@ pnpm install
 npm install
 ```
 
-### 2. 개발 모드 실행
+### 3. 개발 모드 실행
 
 ```bash
 npm run dev
