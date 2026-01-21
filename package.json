@@ -18,11 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/yundohyun/typescript-template.git"
   },
+  "dependencies": {
+    "dotenv-flow": "^4.1.0"
+  },
   "author": "yundohyun",
   "license": "MIT",
-  "dependencies": {
-    "dotenv": "^17.2.3"
-  },
   "devDependencies": {
     "@swc-node/register": "^1.11.1",
     "@swc/core": "^1.15.10",
